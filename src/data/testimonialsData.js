@@ -12,44 +12,44 @@ export const testimonialsData = [
     {
         id: 1,
         name: 'Chandler Bing',
-        title: 'Transponster',
-        text: "Building my own portfolio could've never been easier than this. The only areas I'm good at are Math, Jokes and Dance.",
+        title: 'Dispatch Services',
+        text: "Great experience with Hamza on building my personal website could've never been easier than this.",
         image: boy2
     },
     {
         id: 2,
         name: 'Monica Geller',
         title: 'Head Chef',
-        text: "This is the only thing that I didn't have to spend time to sort out. It's tidy all by itself.",
+        text: "The website perfectly captures my culinary vision—streamlining orders, showcasing my menu beautifully, and elevating my food service experience for every customer.",
         image: girl2
     },
     {
         id: 3,
-        name: 'Phoebe Buffay',
-        title: 'Massuese',
-        text: "Heard of the song 'Smelly Cat!!' ? This website made it viral. Plus portfolio is the only thing that Ursula doesn't have :)",
+        name: 'Ghazal Syed',
+        title: 'Software Developer',
+        text: "Hamza is a really talented and skilled web developer, who has a great eye for design and user experience. He is also very responsive and easy to work with.",
         image: girl1
     },
     {
         id: 4,
         name: 'Joey Tribbiani',
-        title: 'Actor',
-        text: "Making my portfolio with this helped me get my role as 'Dr. Drake Ramoray' in 'Days Of Our Lives'. You guys are the best !",
+        title: 'IOT product designer',
+        text: "Their expertise turned our IoT concept into a reliable, efficient product with seamless performance and real-world impact.",
         image: boy1
     },
     {
         id: 5,
-        name: 'Rachel Green',
-        title: 'Sales Executive',
-        text: 'Ralph Lauren was one of the best things that ever happened to me. My portfolio made that dream happen. I owe you guys.',
-        image: girl3
+        name: 'Zeeshan Ahmed',
+        title: 'CTO DeliSoft',
+        text: 'Realy an hopeful experience with Hamza helped us in dealing with our companies CRS. thank you guys.',
+        image: boy3
     },
     {
         id: 6,
         name: 'Ross Geller',
         title: 'Paleontologist',
-        text: "Be it 'Rocks' or 'Bones', you need a website to display it. This is it. Great work guys !",
-        image: boy3
+        text: "A great experience in creating a portal system for my customers record. ",
+        image: girl3
     }
 ]
 

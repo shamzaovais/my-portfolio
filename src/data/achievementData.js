@@ -3,27 +3,48 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'Google Development Group',
+            details : 'Working as proud member of Google Developer Group on Campus. Organize events, workshops and sessions to help developers grow their skills.',
+            date : 'Aug 20, 2024',
+            field : 'Development',
+            fieldUrl : 'https://developers.google.com/community',
+            image : 'https://raw.githubusercontent.com/shamzaovais/my-portfolio/refs/heads/main/src/assets/png/google.png'
         },
         {
             id : 2,
             title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            details : 'Focuses on designing and deploying scalable applications, AWS Lambda, API Gateway, and DynamoDB, enabling developers to build efficient, cost-effective systems. .',
+            date : 'Aug 20, 2022',
+            field : 'Cloud ',
+            fieldUrl : 'https://aws.amazon.com/certification/',
+            image : 'https://blog.chapimenge.com/images/blogs/aws/serverless_hua9116ec523085f22c4160b9c7e85d2b1_253719_1110x0_resize_lanczos_3.png'
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
+            title : 'Samsung Ai Automation',
+            details : 'Focuses on developing AI-driven solutions for real-world industrial environments, building efficient and scalable systems to solve complex operational and automation challenges.',
+            date : 'Aug 20, 2023',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            fieldUrl : 'https://news.samsung.com/global/tag/ai',
+            image : 'https://images.samsung.com/is/image/samsung/assets/pk/innovation_campus/images/2024_assets/Innovation-Campus_revised-1440x810.jpg?$ORIGIN_JPG$'
+        },
+                {
+            id : 4,
+            title : 'OpenCv Image Processing',
+            details : 'Image processing fundamentals, enabling development of real-time computer vision applications using efficient algorithms and practical implementations.',
+            date : 'Aug 20, 2025',
+            field : 'Automation',
+            fieldUrl : 'https://opencv.org/',
+            image : 'https://media2.dev.to/dynamic/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fibibfurquv35t4mn1pt9.png'
+        },
+        {
+            id : 5,
+            title : 'Critical Infrastructure Protection',
+            details : 'Focuses on protecting critical infrastructure through cybersecurity practices, risk management, and securing essential systems against evolving threats and vulnerabilities.',
+            date : 'Aug 20, 2025',
+            field : 'Cyber Security',
+            fieldUrl : 'https://www.cisa.gov/critical-infrastructure',
+            image : 'https://static.opswatacademy.com/redesign/uploads/images/courses/associate/ICIP.jpeg'
         }
 
     ]

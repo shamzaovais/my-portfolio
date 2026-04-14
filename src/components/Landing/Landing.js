@@ -9,12 +9,11 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
     FaBlogger,
 } from 'react-icons/fa';
+import { SiUpwork , SiBuymeacoffee} from 'react-icons/si';
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -101,29 +100,29 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.Upwork && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.Upwork}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <SiUpwork
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Upwork'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.buymeacoffee && (
                             <a
-                                href={socialsData.youtube}
+                                href={socialsData.buymeacoffee}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <SiBuymeacoffee
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='buymeacoffee'
                                 />
                             </a>
                         )}

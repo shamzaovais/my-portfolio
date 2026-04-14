@@ -12,11 +12,12 @@ import {
     FaBloggerB,
     FaRedditAlien,
     FaStackOverflow,
-    FaCodepen,
     FaInstagram,
     FaGitlab,
-    FaMediumM,
+    
+
 } from 'react-icons/fa';
+import { SiFiverr, SiUpwork , SiBuymeacoffee } from 'react-icons/si';
 import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
@@ -176,7 +177,7 @@ function Contacts() {
                                     Name
                                 </label>
                                 <input
-                                    placeholder='John Doe'
+                                    placeholder='Your Name'
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     type='text'
@@ -192,7 +193,7 @@ function Contacts() {
                                     Email
                                 </label>
                                 <input
-                                    placeholder='John@doe.com'
+                                    placeholder='your@email.com'
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
                                     type='email'
@@ -353,16 +354,6 @@ function Contacts() {
                                     <FaInstagram aria-label='Instagram' />
                                 </a>
                             )}
-                            {socialsData.medium && (
-                                <a
-                                    href={socialsData.medium}
-                                    target='_blank'
-                                    rel='noreferrer'
-                                    className={classes.socialIcon}
-                                >
-                                    <FaMediumM aria-label='Medium' />
-                                </a>
-                            )}
                             {socialsData.blogger && (
                                 <a
                                     href={socialsData.blogger}
@@ -382,6 +373,28 @@ function Contacts() {
                                 >
                                     <FaYoutube aria-label='YouTube' />
                                 </a>
+                            )}
+                            {socialsData.fiverr && (
+                                <a
+                                    href={socialsData.fiverr}    
+                                    target='_blank'
+                                    rel ='noreferrer'
+                                    className={classes.socialIcon}
+                                    >
+                                    <SiFiverr aria-label='Fiverr' />
+                                    </a>
+
+                            )}
+                             {socialsData.Upwork && (
+                                <a
+                                    href={socialsData.Upwork}    
+                                    target='_blank'
+                                    rel ='noreferrer'
+                                    className={classes.socialIcon}
+                                    >
+                                    <SiUpwork aria-label='Upwork' />
+                                    </a>
+
                             )}
                             {socialsData.reddit && (
                                 <a
@@ -403,14 +416,14 @@ function Contacts() {
                                     <FaStackOverflow aria-label='Stack Overflow' />
                                 </a>
                             )}
-                            {socialsData.codepen && (
+                            {socialsData.buymeacoffee && (
                                 <a
-                                    href={socialsData.codepen}
+                                    href={socialsData.buymeacoffee}
                                     target='_blank'
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaCodepen aria-label='CodePen' />
+                                    <SiBuymeacoffee aria-label='buymeacoffee' />
                                 </a>
                             )}
                             {socialsData.gitlab && (

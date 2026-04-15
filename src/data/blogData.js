@@ -4,7 +4,7 @@ export const blogData = [
         title: 'SCRAPING BILLBOARD AND IMDB USING PYTHON SELENIUM',
         description: 'Here we will use Selenium to navigate between web pages, and try to scrape data from them.',
         date: 'Aug 7, 2020',
-        image: 'https://1.bp.blogspot.com/-6vZQoWcIZeo/Xvw5ZD5Y53I/AAAAAAAABgI/GH2b5OuMaXAKuigK4diBbeYDW6dD3qVvgCK4BGAsYHg/w400-h225/selenium.jpg',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZL1J6NwjE0TogaBBCL3oAAIbHL2eFacjxkg&s',
         url: 'https://hackzism.blogspot.com/2020/07/scraping-billboard-and-imdb-using.html'
     },
 
@@ -19,7 +19,7 @@ export const blogData = [
 
     {
         id: 3,
-        title: 'Googles New AI Gemma 4: A Game Changer in AI Development',
+        title: 'GOOGLE AI GEMMA 4: A Game Changer in AI Development',
         description: 'Gemma 4 an unprecedented level of intelligence-per-parameter. This breakthrough builds on incredible community momentum.',
         date: 'Apr 4, 2026',
         image: 'https://blogger.googleusercontent.com/img/a/AVvXsEhvsBuMvO1M3nsx7_OSBWWYQ-Hz7NCgGlTdJcF5dilvQI4XjyKa6qul80jeezo4Q6RJU9zLluo06F4Y5n3pQhjdYaxF1cuoqsQWEwH8OodoDm0GPpQwpzI-upZX_lqz_oIXcc26o5WkZv7rfcMxXcKPbyCdN-PZmIQgkRhANTBN1ib6qvdCx37lOHVea9g=w615-h346',
@@ -30,7 +30,7 @@ export const blogData = [
         title: 'BEING ANONYMOUS: A BEGINNERS GUIDE',
         description: 'Here are some basic ways to lay off the Radar',
         date: 'Aug 14, 2020',
-        image: 'https://1.bp.blogspot.com/-GR19yCNbKCE/XuRcKEfKvhI/AAAAAAAAAwY/srFWw5pOpzMibeJb__SmgZpx9dIpNNWqgCK4BGAsYHg/w640-h426/anonymous1.jpg',
+        image: 'https://blogger.googleusercontent.com/img/a/AVvXsEjuYDf4LwU7L4uB9a_jX_kYtchrGCjPVtItO7PpF-MKD5oLxdXNQ4QVX_rPeQQk40wRlyVq34J8aHsZvnJZtgZq36eqcbUDti5RO9B3pVoRmB2HrxMxAzd7eGZwtKOKNqTzFzta61-skFplxwWuKQZMAk56CI0YNBICeajcYapWFIL3ZYD3XUG4JJeQDao=w945-h600-p-k-no-nu',
         url: 'https://hackzism.blogspot.com/2020/06/being-anonymous-beginners-guide.html'
     },
 

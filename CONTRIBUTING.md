@@ -57,17 +57,6 @@ git push -u origin <branch name>
 
 9. Voila! You made a contribution. Keep it up.
 
-### Keeping your fork up-to-date
 
-1. Add this repository as an upstream.
-<!-- add name of your upstream repo -->
-```bash
-git remote add upstream https://github.com/hhhrrrttt222111/developer-portfolio.git
-```
-
-2. Pull the latest changes from the main branch.
-
-```bash
-git pull upstream master
 ```
 

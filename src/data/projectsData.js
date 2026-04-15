@@ -23,8 +23,8 @@ export const projectsData = [
         projectName: 'Railway Tracking',
         projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
         tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/shamzaovais/developer-portfolio',
-        demo: 'https://github.com/shamzaovais/developer-portfolio',
+        code: 'https://github.com/shamzaovais/my-portfolio',
+        demo: 'https://github.com/shamzaovais/my-portfolio',
         image: two
     },
     {
